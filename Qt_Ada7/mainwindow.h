@@ -21,6 +21,11 @@ public:
 
     void setUpAda7();
     
+private slots:
+    void on_dial_valueChanged(int value);
+
+    void on_verticalSlider_valueChanged(int value);
+
 private:
     Ui::MainWindow *ui;
 
